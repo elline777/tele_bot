@@ -1,0 +1,2 @@
+@ * * * *  PYTHONPATH=/home/...../tele_bot/ python /home/..../tele_bot/echo/notify.py
+###crontab -e
