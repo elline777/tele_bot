@@ -1,3 +1,9 @@
 /settings/production.py
 .idea
 **/__pycache__
+*.pyc
+
+# Все сгенерированные файлы
+result*.png
+googledino/snapshot_*
+
