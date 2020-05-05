@@ -262,7 +262,7 @@ def main():
     # Навесить обработчики команд
     start_handler = CommandHandler("start", do_start)
     help_handler = CommandHandler("help", do_help)
-    time_handler = CommandHandler("time", do_time)
+    time_handler = CommandHandler("time", do_start)
     message_handler = MessageHandler(Filters.text, do_echo)
     buttons_handler = CallbackQueryHandler(callback=keyboard_callback_handler)
 
